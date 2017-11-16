@@ -15,6 +15,7 @@ import java.io.IOException;
 /**
  * 完成 单个任务启动
  * 其中，Jar包需要拷贝到集群中每个slave节点对应的位置；
+ * 访问路径：http://localhost:8080/spark_hdfs/WordCount?path=file:/tmp/wc.jar
  * Created by fansy on 2017/11/15.
  */
 public class WordCountServlet extends HttpServlet {

@@ -13,4 +13,15 @@
         <servlet-name>WordCount</servlet-name>
         <url-pattern>/WordCount</url-pattern>
     </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>WordCount2</servlet-name>
+        <servlet-class>demo.servlet.WordCountServlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WordCount2</servlet-name>
+        <url-pattern>/WordCount2</url-pattern>
+    </servlet-mapping>
+
 </web-app>
