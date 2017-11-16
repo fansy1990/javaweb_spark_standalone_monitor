@@ -46,7 +46,12 @@ public class WordCountServlet2 extends HttpServlet {
 
         log.info("id:"+id);
 
-
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                SparkEngine.monitory(id);
+            }
+        }).start();
 
     }
 
