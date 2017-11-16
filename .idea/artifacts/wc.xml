@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="wc">
+    <output-path>$PROJECT_DIR$/out/artifacts/wc</output-path>
+    <root id="archive" name="wc.jar">
+      <element id="module-output" name="tmp_spark_hdfs" />
+    </root>
+  </artifact>
+</component>
