@@ -80,9 +80,17 @@ public class SparkEngine {
         return map;
     }
 
+    /**
+     * 这个方法实际返回的结果也是空，所以直接返回空即可
+     * @param m
+     * @param <A>
+     * @param <B>
+     * @return
+     */
     public static <A, B> scala.collection.immutable.Map<A, B> toScalaMap(Map<A, B> m) {
-        return JavaConverters.mapAsScalaMapConverter(m).asScala().toMap(
-                Predef.<Tuple2<A, B>>conforms()
-        );
+//        return JavaConverters.mapAsScalaMapConverter(m).asScala().toMap(
+//                Predef.<Tuple2<A, B>>conforms()
+//        )
+        return new  scala.collection.immutable.HashMap();
     }
 }
