@@ -135,15 +135,6 @@
     <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:2.5.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.avro:avro:1.7.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-annotations:2.6.4" level="project" />
-    <orderEntry type="module-library">
-      <library name="Maven: jdk.tools:jdk.tools:1.6">
-        <CLASSES>
-          <root url="jar://C:/Program Files/Java/jdk1.8.0_51/lib/tools.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="library" name="Maven: com.google.inject.extensions:guice-servlet:3.0" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty:3.6.2.Final" level="project" />
     <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-common:2.6.4" level="project" />
