@@ -16,7 +16,7 @@
         <encoding>UTF-8</encoding>
 
         <junit.version>3.8.1</junit.version>
-        <hadoop.version>2.8.3</hadoop.version>
+        <hadoop.version>2.10.1</hadoop.version>
         <spark.version>2.4.4</spark.version>
 
         <slf4j.version>1.6.6</slf4j.version>
